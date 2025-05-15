@@ -17,3 +17,35 @@ This repository contains an implementation of the **Residual Neural Network (Res
 
 ResNet introduces **residual blocks** that add skip connections to allow gradients to flow directly through the network, mitigating the vanishing gradient problem in deep models.
 
+
+Each residual block contains:
+- 2 convolutional layers
+- Batch normalization
+- ReLU activation
+- Skip connection
+
+---
+
+## 🧪 Supported Variants
+
+| Model     | Layers Configuration        |
+|-----------|-----------------------------|
+| ResNet-18 | [2, 2, 2, 2]                |
+| ResNet-34 | [3, 4, 6, 3]                |
+
+More variants (e.g., ResNet-50, ResNet-101) can be implemented using `Bottleneck` blocks.
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Requirements
+
+- Python 3.7+
+- PyTorch >= 1.10
+- torchvision
+
+Install dependencies:
+
+```bash
+pip install torch torchvision
