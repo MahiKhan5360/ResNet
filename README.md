@@ -53,3 +53,10 @@ pip install torch torchvision
 
 ├── resnet.py        # ResNet-18 model implementation
 ├── README.md        # Documentation
+
+@inproceedings{he2016deep,
+  title={Deep Residual Learning for Image Recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2016}
+}
